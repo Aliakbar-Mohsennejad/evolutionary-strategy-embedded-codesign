@@ -1,41 +1,53 @@
-# Prerequisites
-*.d
+# OS
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
+# Build/Artifacts
+build/
+bin/
+obj/
+out/
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.lib
+*.a
+*.out
+*.log
 
-# Precompiled Headers
-*.gch
+# MATLAB
+*.asv
+*.m~
+*.fig
+*.mat
+*.mex*
+*.slxc
+*.autosave
+*.mltbx
+*.mdl.autosave
+*.mexw64
+*.mexmaci64
+
+# SystemC / C++
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+*.depend
+*.d
 *.pch
 
-# Linker files
-*.ilk
+# Python (if used for tooling)
+__pycache__/
+*.pyc
 
-# Debugger Files
-*.pdb
+# VSCode
+.vscode/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Temporary data exchange files used by MATLAB <-> SystemC
+matlab_to_systemc.dat
+systemc_to_matlab.dat
+params.dat
