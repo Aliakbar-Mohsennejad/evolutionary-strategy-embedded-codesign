@@ -1,0 +1,4 @@
+﻿  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+C:\Users\AceR\source\repos\test-systemC\test-systemC\recombination_module.h(23,33): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  test-systemC.vcxproj -> C:\Users\AceR\source\repos\test-systemC\Debug\test-systemC.exe
